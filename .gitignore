@@ -1,0 +1,17 @@
+### Secrets ###
+.env
+.aws/credentials
+.aws/config
+.DS_Store
+
+### Django ###
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+media
+
+### Project ###
+FLOW.md

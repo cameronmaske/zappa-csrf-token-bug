@@ -1,0 +1,13 @@
+{
+    "dev": {
+        "django_settings": "app.settings",
+        "s3_bucket": "zappa-debug-django-csrf",
+        "keep_warm": false,
+        "debug": true,
+        "binary_support" : true,
+        "profile_name": "personal",
+        "environment_variables": {
+            "ALLOWED_HOSTS": "*"
+        }
+    }
+}

@@ -1,0 +1,9 @@
+django==1.10.5
+dj-database-url==0.4
+requests==2.10
+psycopg2==2.6
+uwsgi==2.0.14
+boto==2.45.0
+python-magic==0.4.12
+raven==6.0.0
+zappa

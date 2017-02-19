@@ -1,0 +1,18 @@
+{% load static %}<!DOCTYPE html>
+<html>
+<head>
+  <title>Example</title>
+  {% block head %}
+  {% endblock %}
+</head>
+<body>
+  <header>
+    <form action="/dev/" method="post">
+      {% csrf_token %}
+      {{ form.as_p }}
+      <input type="submit" value="Submit" />
+    </form>
+    <p> {{ status }} </p>
+  </main>
+</body>
+</html>
